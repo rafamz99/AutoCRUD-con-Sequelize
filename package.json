@@ -1,0 +1,31 @@
+{
+  "name": "practicasequalize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen-models": "sequelize-auto -h localhost -d api_rest_db -u root -x '' -p 3306 --dialect mysql -o ./models -l esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfherrero05/PracticaSequalize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfherrero05/PracticaSequalize/issues"
+  },
+  "homepage": "https://github.com/jfherrero05/PracticaSequalize#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.16.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "sequelize-auto": "^0.8.8"
+  }
+}
